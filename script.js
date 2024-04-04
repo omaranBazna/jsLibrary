@@ -16,5 +16,16 @@ function loadKey(key,id){
 
 }
 
+function loadImage(key,id){
+  let el=document.getElementById(id)
+  fetch(SERVER_URL+"key/"+projectAPI+"/"+key).then(res=>res.json()).then(data=>{
+       
+      console.log(data)
+      let val=data.pair.value
+      el.src = val
+  })
+
+}
+
 
 
