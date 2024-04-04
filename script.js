@@ -1,4 +1,4 @@
-const SERVER_URL= "https://76116eb4-4da6-405e-bcae-84551fdc3c5c-00-1dyw26i9khzqz.worf.replit.dev/"; 
+const SERVER_URL= "https://13ee797a-f04f-4188-bd96-7bfc59f3603e-00-4zqbc1f063fq.spock.replit.dev/"; 
 
 
 function loadKey(key,api,id){
